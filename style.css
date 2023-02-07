@@ -1,0 +1,34 @@
+.headerContainer {
+    display: flex;
+}
+.left {
+    height: 500px;
+    width: 700px;
+    border: 1px solid;
+}
+
+.right {
+    height: 300px;
+    width: 400px;
+    border: 1px solid;
+}
+
+.form{
+    display: flex;
+}
+
+.footerContainer{
+    display: flex;
+}
+
+.ftleft {
+    height: 300px;
+    width: 300px;
+    border: 1px solid;
+}
+
+.ftright {
+    height: 300px;
+    width: 300px;
+    border: 1px solid;
+}
