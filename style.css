@@ -1,34 +1,135 @@
 .headerContainer {
+    background-color: #FFCD9E;
     display: flex;
 }
+
+.title {
+    position: absolute;
+    width: 562px;
+    height: 108px;
+    left: 136px;
+    top: 83px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 150%;
+}
+
+.para {
+    position: absolute;
+    width: 495px;
+    height: 81px;
+    left: 136px;
+    top: 219px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 160%;
+
+}
+
+.bold {
+    position: absolute;
+    width: 227px;
+    height: 81px;
+    left: 136px;
+    top: 315px;
+
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 160%;
+    display: flex;
+    align-items: center;
+
+    color: #282828;
+}
+
+.email{
+    box-sizing: border-box;
+    position: absolute;
+    width: 344px;
+    height: 64px;
+    left: 136px;
+    top: 411px;
+    background: #FFFF;
+    border: 4px;
+    border-radius: 8px;
+}
+
+.button {
+    padding: 10px;
+    text-align: center;
+    color: #FFFF;
+    background-color: #282828;
+    position: absolute;
+    width: 216px;
+    height: 64px;
+    top: 411px;
+    left: 496px;
+
+}
+
 .left {
+
     height: 500px;
     width: 700px;
-    border: 1px solid;
+    border: 1px solid; 
+} 
+
+.hatguy{
+    position: absolute;
+    width: 575px;
+    height: 575px;
+    left: 818px;
+    top: 20px;
+}
+
+.warn{
+    position: absolute;
+    width: 344px;
+    height: 61px;
+    left: 134px;
+    top: 479px;
+    text-align: center;
 }
 
 .right {
     height: 300px;
-    width: 400px;
+    width: 700px;
     border: 1px solid;
 }
 
-.form{
+.form {
     display: flex;
 }
 
-.footerContainer{
+.footerContainer {
+    background-color: #282828;
     display: flex;
+
+}
+
+.foot{
+    position: absolute;
+    width: 216px;
+    height: 36px;
+    left: 160px;
+    top: 550px;
+    font-weight: 400;
+font-size: 20px;
+line-height: 160%;
 }
 
 .ftleft {
-    height: 300px;
-    width: 300px;
+
+    height: 250px;
+    width: 700px;
     border: 1px solid;
 }
 
 .ftright {
-    height: 300px;
-    width: 300px;
+    height: 250px;
+    width: 700px;
     border: 1px solid;
 }
